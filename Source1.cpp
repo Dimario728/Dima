@@ -1,37 +1,37 @@
 #include <iostream>
 
 
-<<<<<<< HEAD
+
 
 =======
 int main() {
 	setlocale(LC_ALL, "rus");
-	const int maxSize = 100; // Ìàêñèìàëüíûé ðàçìåð ìàññèâà
+	const int maxSize = 100; // ÃŒÃ ÃªÃ±Ã¨Ã¬Ã Ã«Ã¼Ã­Ã»Ã© Ã°Ã Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã±Ã¨Ã¢Ã 
 	int n;
-	std::cout << "Ââåäèòå ðàçìåð ìàññèâà (íå áîëåå " << maxSize << "): ";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã°Ã Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã±Ã¨Ã¢Ã  (Ã­Ã¥ Ã¡Ã®Ã«Ã¥Ã¥ " << maxSize << "): ";
 	std::cin >> n;
 	if (n > maxSize || n <= 0) {
-		std::cout << "Îøèáêà: íåâåðíûé ðàçìåð ìàññèâà\n";
+		std::cout << "ÃŽÃ¸Ã¨Ã¡ÃªÃ : Ã­Ã¥Ã¢Ã¥Ã°Ã­Ã»Ã© Ã°Ã Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã±Ã¨Ã¢Ã \n";
 >>>>>>> b5f9417c962c8aebce77444e638140933538d57f
 		return 1;
-<<<<<<< HEAD
+
 =======
 	}
 
 	int arr[maxSize];
-	std::cout << "Ââåäèòå ýëåìåíòû ìàññèâà:\n";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã» Ã¬Ã Ã±Ã±Ã¨Ã¢Ã :\n";
 	for (int i = 0; i < n; ++i) {
 		std::cin >> arr[i];
 	}
 
 	selectionSort(arr, n);
 
-	std::cout << "Îòñîðòèðîâàííûé ìàññèâ:\n";
+	std::cout << "ÃŽÃ²Ã±Ã®Ã°Ã²Ã¨Ã°Ã®Ã¢Ã Ã­Ã­Ã»Ã© Ã¬Ã Ã±Ã±Ã¨Ã¢:\n";
 	for (int i = 0; i < n; ++i) {
 		std::cout << arr[i] << " ";
 	}
 	std::cout << std::endl;
 
 	return 0;
->>>>>>> parent of 8086744 (Version 2.0)
+
 }
